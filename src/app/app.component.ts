@@ -1,6 +1,11 @@
 import { Component, ViewChildren, QueryList } from '@angular/core';
 import { DataStateChangeEvent } from '@progress/kendo-angular-grid';
 import { GroupResult, process, State } from '@progress/kendo-data-query';
+/**
+ * Author: Rakshit Shah
+ * Email: rakshitshah1994@gmail.com
+ * Link: https://medium.com/beingcoders/kendo-grid-groupable-columns-example-kendo-ui-for-angular-d49a434ed568?sk=032875562544863279f76790d0c82641
+ * */
 export class NgKendoGroupableDemo {
   Order_id: boolean = true;
   ProductName: boolean = false;
